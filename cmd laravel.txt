@@ -1,0 +1,11 @@
+crear seeder
+-php artisan make:seeder UsersTableSeeder
+
+refrescar migracion de tabla
+-php artisan migrate:refresh 
+
+refrecar micgracion y seed
+-php artisan migrate:refresh --seed
+
+crear middleware
+-php artisan make:middleware AdminMiddleware
